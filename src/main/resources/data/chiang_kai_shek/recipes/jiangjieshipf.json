@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "chiang_kai_shek:jiangjieshi",
+    "count": 1
+  }
+}

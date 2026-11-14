@@ -1,0 +1,234 @@
+{
+  "mod_elements": [
+    {
+      "name": "ChiangKaishek",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiang_kaishek",
+      "metadata": {
+        "files": [
+          "src/main/java/chaiang_kai_shek/client/renderer/ChiangKaishekRenderer.java",
+          "src/main/resources/assets/chiang_kai_shek/models/item/chiang_kaishek_spawn_egg.json",
+          "src/main/resources/data/chiang_kai_shek/forge/biome_modifier/chiang_kaishek_biome_modifier.json",
+          "src/main/java/chaiang_kai_shek/entity/ChiangKaishekEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Kxdns",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kxdns",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chiang_kai_shek/models/item/kxdns.json",
+          "src/main/java/chaiang_kai_shek/item/KxdnsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sk",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sk",
+      "metadata": {
+        "files": [
+          "src/main/java/chaiang_kai_shek/item/SkItem.java",
+          "src/main/resources/assets/chiang_kai_shek/models/item/sk.json"
+        ]
+      }
+    },
+    {
+      "name": "Xmmlzwtkdqsmx",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xmmlzwtkdqsmx",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Jiangjieshi",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiangjieshi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiang_kai_shek/loot_tables/blocks/jiangjieshi.json",
+          "src/main/resources/assets/chiang_kai_shek/models/block/jiangjieshi.json",
+          "src/main/resources/assets/chiang_kai_shek/blockstates/jiangjieshi.json",
+          "src/main/java/chaiang_kai_shek/block/JiangjieshiBlock.java",
+          "src/main/resources/assets/chiang_kai_shek/models/item/jiangjieshi.json"
+        ]
+      }
+    },
+    {
+      "name": "Jiangjieshipf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiangjieshipf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiang_kai_shek/recipes/jiangjieshipf.json"
+        ]
+      }
+    },
+    {
+      "name": "JiangjieshiFangKuaiJieShouDaoHongShiXinHaoShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiangjieshi_fang_kuai_jie_shou_dao_hong_shi_xin_hao_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/chaiang_kai_shek/procedures/JiangjieshiFangKuaiJieShouDaoHongShiXinHaoShiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "JiangjieshiFangKuaiWeiJieShouDaoHongShiXinHaoShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiangjieshi_fang_kuai_wei_jie_shou_dao_hong_shi_xin_hao_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/chaiang_kai_shek/procedures/JiangjieshiFangKuaiWeiJieShouDaoHongShiXinHaoShiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Jiangjieshishuaguaidanpf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiangjieshishuaguaidanpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chiang_kai_shek/recipes/jiangjieshishuaguaidanpf.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "kxdns",
+      "files": [
+        "8cyf4-se3uq"
+      ],
+      "category": "neutral",
+      "subtitle": "苦行东南山"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "~Kxdns@CUSTOM:Kxdns"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Jiangjieshi@CUSTOM:Jiangjieshi"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~Jiangjieshi@CUSTOM:Jiangjieshi"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.xmmlzwtk_whimsical_ideas.chiang_kaishek_spawn_egg": "蒋介石 Spawn Egg",
+      "entity.xmmlzwtk_whimsical_ideas.chiang_kaishek": "蒋介石",
+      "subtitles.kxdns": "苦行东南山",
+      "item.xmmlzwtk_whimsical_ideas.kxdns.desc": "来自中原的一群伙伴~",
+      "item.xmmlzwtk_whimsical_ideas.kxdns": "苦行东南山",
+      "item.xmmlzwtk_whimsical_ideas.sk": "Sk",
+      "item_group.xmmlzwtk_whimsical_ideas.xmmlzwtkdqsmx": "小米米来自外太空的奇思妙想",
+      "block.xmmlzwtk_whimsical_ideas.jiangjieshi": "讲解石",
+      "entity.chiang_kai_shek.chiang_kaishek": "蒋介石",
+      "item.chiang_kai_shek.chiang_kaishek_spawn_egg": "蒋介石 Spawn Egg",
+      "item.chiang_kai_shek.kxdns.desc": "来自中原的一群伙伴~",
+      "item.chiang_kai_shek.kxdns": "苦行东南山",
+      "item.chiang_kai_shek.sk": "Sk",
+      "item_group.chiang_kai_shek.xmmlzwtkdqsmx": "小米米来自外太空的奇思妙想",
+      "block.chiang_kai_shek.jiangjieshi": "讲解石"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/chaiang_kai_shek/init/ChiangKaiShekModBlocks.java",
+      "src/main/java/chaiang_kai_shek/init/ChiangKaiShekModItems.java",
+      "src/main/java/chaiang_kai_shek/init/ChiangKaiShekModEntities.java",
+      "src/main/java/chaiang_kai_shek/init/ChiangKaiShekModEntityRenderers.java",
+      "src/main/resources/assets/chiang_kai_shek/sounds.json",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/chaiang_kai_shek/init/ChiangKaiShekModSounds.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/chaiang_kai_shek/ChiangKaiShekMod.java",
+      "src/main/java/chaiang_kai_shek/init/ChiangKaiShekModTabs.java",
+      "src/main/java/chaiang_kai_shek/init/ChiangKaiShekModModels.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chiang_kai_shek",
+    "modName": "蒋介石",
+    "version": "1.0.0",
+    "author": "小米米来自外太空",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "feng_chao_kong_dong_hui_se_yan_shi_bai_jian_",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "chaiang_kai_shek"
+  },
+  "mcreatorVersion": 202600233518
+}

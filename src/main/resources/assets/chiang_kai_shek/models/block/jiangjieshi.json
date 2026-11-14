@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chiang_kai_shek:block/651e8376-7cd1-4c81-8ecb-56605f1489b3",
+    "up": "chiang_kai_shek:block/651e8376-7cd1-4c81-8ecb-56605f1489b3",
+    "north": "chiang_kai_shek:block/651e8376-7cd1-4c81-8ecb-56605f1489b3",
+    "east": "chiang_kai_shek:block/651e8376-7cd1-4c81-8ecb-56605f1489b3",
+    "south": "chiang_kai_shek:block/651e8376-7cd1-4c81-8ecb-56605f1489b3",
+    "west": "chiang_kai_shek:block/651e8376-7cd1-4c81-8ecb-56605f1489b3",
+    "particle": "chiang_kai_shek:block/651e8376-7cd1-4c81-8ecb-56605f1489b3"
+  },
+  "render_type": "solid"
+}

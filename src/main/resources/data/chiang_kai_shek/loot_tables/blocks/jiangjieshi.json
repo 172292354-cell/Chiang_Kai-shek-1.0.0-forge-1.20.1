@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "chiang_kai_shek:blocks/jiangjieshi",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "chiang_kai_shek:jiangjieshi"
+        }
+      ]
+    }
+  ]
+}

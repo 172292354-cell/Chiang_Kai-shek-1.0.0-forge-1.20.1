@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "chiang_kai_shek:item/li_ti_si_kao_lian_biao_qing_fu_hao_"
+  }
+}

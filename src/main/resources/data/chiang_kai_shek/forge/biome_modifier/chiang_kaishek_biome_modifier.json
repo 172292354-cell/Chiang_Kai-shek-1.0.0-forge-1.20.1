@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "chiang_kai_shek:chiang_kaishek",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

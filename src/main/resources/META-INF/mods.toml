@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Not specified"
+
+[[mods]]
+modId="chiang_kai_shek"
+version="1.0.0"
+displayName="\u848B\u4ECB\u77F3"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="\u5C0F\u7C73\u7C73\u6765\u81EA\u5916\u592A\u7A7A"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.chiang_kai_shek]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
